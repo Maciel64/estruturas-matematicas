@@ -12,6 +12,16 @@ export const metadata: Metadata = {
   description:
     "Resolva problemas de álgebra linear com explicações passo a passo",
   generator: "v0.app",
+  openGraph: {
+    images: [
+      {
+        url: "/og_bg.pgn",
+        width: 1200,
+        height: 630,
+        alt: "Solucionador de Matrizes - Estruturas Matemáticas",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
